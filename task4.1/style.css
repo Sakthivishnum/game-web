@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 300px 500px;
+}
+th, td {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: center;
+}
+td:hover{
+    color: darkgoldenrod;
+}
+th {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:darkgrey;
+}
+.lunch {
+    font-weight: bold;
+}
+.project {
+    font-weight: bold;
+}
+.head th::first-line{
+    font-size: 40px;
+}
